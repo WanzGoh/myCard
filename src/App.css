@@ -1,9 +1,9 @@
 .app {
+  background: linear-gradient(-45deg, #f3f5f0 50%, #dfe8eb 50%);
 }
 
 .app_body {
   display: flex;
-  background-color: #f1f2f5;
 }
 .app_footer {
   height: 300px;

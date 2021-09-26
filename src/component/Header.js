@@ -6,7 +6,7 @@ import "../css/Header.css"
 function Header() {
 	return (
 		<div className="header">
-			Thank you
+			<h1>미래를 바꿔가는 남자</h1>
 		</div>
 	)
 }

@@ -25,12 +25,12 @@ function Container() {
 			<div className="jobtitle">Web Developer</div>
 			<div className="list">
 			<List sx={style} component="nav" aria-label="mailbox folders">
-				<ListItem button href="tel:236-865-0512"><ListItemText primary="Phone" />236-865-0512</ListItem>
+				<ListItem button><ListItemText primary="Phone" /><a href="tel:236-865-0512">236-865-0512</a></ListItem>
 				<Divider />
-				<ListItem button divider><ListItemText primary="Email" /><p>danielgo512@gmail.com</p></ListItem>
-				<ListItem button><ListItemText primary="WebSite" /><p>www.devyuwan.ga</p></ListItem>
+				<ListItem button divider><ListItemText primary="Email" /> <a href="mailto:danielgo512@gmail.com">danielgo512@gmail.com</a></ListItem>
+				<ListItem button><ListItemText primary="WebSite" /><a href="http://www.devyuwan.ga">www.devyuwan.ga</a></ListItem>
 				<Divider light />
-				<ListItem button><ListItemText primary="KaKaoTalk" /><p>danielgo512</p></ListItem>
+				<ListItem button><ListItemText primary="KaKaoTalk" /><a href="http://qr.kakao.com/talk/Dkm_DIXtRQwWYjKztpBxXUG4XCo-">danielgo512</a></ListItem>
 				</List>
 			</div>
 			</div>
